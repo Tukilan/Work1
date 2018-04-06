@@ -88,7 +88,7 @@
 					echo '<label class="point-label" onclick="Get_Page('.($data['page'] + 3).');">...</label>';
 				
 					echo '<label class="point-label" onclick="Get_Page('.($data['page'] + 1).');"> > </label>';
-					echo '<label class="point-label" onclick="Get_Page('.$max_pages.');"> >> </label>1';
+					echo '<label class="point-label" onclick="Get_Page('.$max_pages.');"> >> </label>';
 				}
 ?>
 			</div>
