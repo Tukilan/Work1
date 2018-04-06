@@ -1,0 +1,212 @@
+.report {
+  box-shadow: 0px 1px 15px 1px rgba(81, 77, 92, 0.08);
+  background-color: #fff;
+  padding-bottom: 30px;
+}
+.report__title {
+  border-bottom: 1px solid #ebedf2;
+  border-top: 1px solid #ebedf2;
+  height: 70px;
+}
+.report__title--caption {
+  float: left;
+  width: 50%;
+  line-height: 70px;
+  padding-left: 30px;
+}
+.report__title--tools {
+  float: right;
+  width: 50%;
+  text-align: right;
+  line-height: 67px;
+  padding-right: 30px;
+}
+.report__title--tools a {
+  display: inline-block;
+  height: 100%;
+  color: #006fc0;
+  border-bottom: 3px solid #006fc0;
+}
+.report__title--tools a .fa {
+  margin-right: 5px;
+}
+.report__graph {
+  text-align: center;
+  padding: 40px 0;
+}
+.r__title {
+	text-align: center;
+	margin-bottom: 30px;
+	border-top: 1px solid #f0f0f0;
+	border-bottom: 1px solid #f0f0f0;
+	padding: 20px 0;
+}
+
+.r__title h2 {
+	margin: 0;
+}
+
+.t-table-candidates {
+	position: relative;
+	padding-left: 90px!important;
+}
+.t-table-candidates img {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+.t-table {
+	display: block;
+	overflow-x: auto;
+  margin-bottom: 30px;
+}
+.n_cnt {
+  display: block;
+  text-align: center;
+}
+.table {
+  overflow-x: auto;
+  font-size: 0.9rem;
+  margin-bottom: 30px;
+}
+.table__file {
+  display: inline-block;
+  position: relative;
+  padding: 0 !important;
+  width: 33px;
+  height: 33px;
+  color: #006fc0;
+  background-color: transparent;
+  border: 2px solid #006fc0;
+  border-radius: 50%;
+  line-height: 29px;
+  margin-left: 15px;
+}
+.table__file:hover {
+  background-color: #006fc0;
+  color: #fff;
+}
+.table__lock {
+  border-left: 2px solid #f0f0f0;
+  background: #fff;
+  border-right: 2px solid #f0f0f0;
+  border-bottom: 1px solid #f0f0f0;
+  border-top: 1px solid #f0f0f0;
+  text-align-last: auto;
+}
+.table__lock a {
+  text-decoration: underline;
+  font-weight: 600;
+}
+.table td, .table th {
+  padding: 11px 10px;
+  text-align: center;
+}
+.table tr:hover {
+  background: #f4f3f8;
+}
+.table .thead tr {
+  background: #f4f3f8;
+}
+.table .tbody tr:nth-child(even) {
+  background: #faf9fc;
+}
+.table .tbody tr:nth-child(even):hover {
+  background: #f4f3f8;
+}
+.pager-nav {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+.pager-nav__link {
+  display: inline-block;
+  border-radius: 50%;
+}
+.pager-nav__link a {
+  cursor: pointer;
+  display: inline-block;
+  height: 2.25rem;
+  min-width: 2.25rem;
+  vertical-align: middle;
+  padding: 0.5rem;
+  border-radius: 50%;
+  text-align: center;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+  font-weight: 400;
+  transition: 0.3s;
+}
+.pager-nav__link a:hover {
+  background: #716aca;
+  color: #fff;
+}
+.pager-nav__arrow {
+  background: #ebe9f2;
+}
+.pager-nav .active {
+  background: #716aca;
+  color: #fff;
+}
+.pager-nav__num--mob {
+  display: none;
+}
+#graph {
+  height: 400px;
+}
+.t-title {
+  text-align: center;
+  padding: 20px 0;
+}
+.t-text {
+  text-align: center;
+}
+.t-body {
+  padding: 20px;
+}
+.t-table td {
+  border: 1px solid #f0f0f0;
+  padding: 10px;
+}
+@media only screen and (max-width: 1300px) {
+  .table {
+    display: block;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .main {
+    padding: 20px;
+  }
+  .pager-nav__num {
+    display: none;
+  }
+  .pager-nav__num--mob {
+    display: inline-block;
+  }
+  .report__title {
+    height: auto;
+  }
+  .report__title--caption {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+  .report__title--tools {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 425px) {
+  #graph {
+    height: 300px;
+  }
+  .main {
+    padding: 10px;
+  }
+}
